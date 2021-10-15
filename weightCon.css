@@ -1,0 +1,79 @@
+.container1 {
+  padding: 10px;
+}
+.container1 input {
+  background: yellowgreen;
+  padding: 10px;
+}
+
+.container2 {
+  padding: 10px;
+}
+.container2 input {
+  background: yellowgreen;
+  padding: 10px;
+}
+button {
+  margin-left: 10px;
+  padding: 6px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  box-shadow: 20px black;
+}
+body {
+  background-image: url("night.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#btn1,
+#btn3 {
+  width: 120px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#btn2 {
+  width: 120px;
+  padding: 10px;
+  margin-top: 10px;
+}
+#btn4 {
+  padding: 10px;
+  margin-top: 10px;
+}
+.money {
+  font-family: sans-serif;
+  position: absolute;
+  left: 20%;
+}
+.weight {
+  font-family: sans-serif;
+  position: absolute;
+  right: 20%;
+}
+.money p {
+  text-align: center;
+  color: white;
+}
+.money,
+.weight {
+  height: 250px;
+  width: 290px;
+  margin: 20px;
+  border: 1px solid white;
+  box-shadow: 1px 1px rgba(77, 167, 50, 0.651);
+  padding: 10px;
+}
+.weight p {
+  text-align: center;
+  color: white;
+}
